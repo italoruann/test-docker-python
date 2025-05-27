@@ -13,5 +13,6 @@ Este projeto executa um script Python simples usando Docker e Docker Compose.
    cd <nome-do-repo>
 2. Construa a imagem Docker:
    ```sh
-   docker-compose up --build
+   docker-compose build --no-cache
+   docker-compose up
    ```
