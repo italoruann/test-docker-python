@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  # Nome do serviço, pode ser qualquer um. 'app' ou 'script' são comuns.
+  meu_script_ola_mundo:
+    # Constrói a imagem usando o Dockerfile no diretório atual (.)
+    build: .
+    # Nome da imagem a ser construída (opcional)
+    image: ola-mundo-script
+    # Nome do contêiner quando executado (opcional)
+    container_name: ola-mundo-container
+
+    volumes:
+      - .:/app # Mapeia o diretório atual para /app dentro do contêiner

@@ -1,0 +1,1 @@
+print('Vai trabalhar vagabundo kkkkkkkkk!!!!')
